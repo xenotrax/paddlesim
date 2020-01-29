@@ -1,2 +1,0 @@
-/Volumes/SSD-T5/MyCreations/Unity/paddlesim/psUnity/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-/Volumes/SSD-T5/MyCreations/Unity/paddlesim/psUnity/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

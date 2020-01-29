@@ -87,7 +87,8 @@ public class WebSocket : MonoBehaviour
             //     qz, qw, activity, jx, jy, jz);
 
             //Debug.LogFormat("Got message from the websocket assis? '{0}'", assis);
-            _tracker.setNewPosition(new Quaternion(qy,qz,qx,qw));
+            _tracker.setNewPosition(new Quaternion(qy,qz,qx*-1,qw*-1));
+           // _tracker.setNewPosition(new Quaternion(qx,qy,qz,qw));
             // Debug.LogFormat("Got message from the websocket temperature? '{0}'", BitConverter.ToInt16(buffer,4));
 
             // Send(temperature); // Send data back to the client
